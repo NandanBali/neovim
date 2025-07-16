@@ -79,3 +79,5 @@ return {
     vim.keymap.set("n", "<F1>", show_all_keybinds, { desc = "Show all keybinds" })
   end,
 }
+
+

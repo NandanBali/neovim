@@ -9,10 +9,10 @@ return {
           auto_trigger = true,
           debounce = 75,
           keymap = {
-            accept = "<C-l>",
-            next = "<C-j>",
-            prev = "<C-k>",
-            dismiss = "<C-h>",
+            accept = "<C-Tab>",
+            next = "<nop>",
+            prev = "<nop>",
+            dismiss = "<nop>",
           },
         },
         panel = { enabled = false },
@@ -20,4 +20,5 @@ return {
     end,
   },
 }
+
 
