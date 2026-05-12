@@ -24,6 +24,9 @@ return {
         { "<leader>d",  group = "Debug/DAP",  icon = " " },
         { "<leader>c",  group = "Code",       icon = " " },
         { "<leader>h",  group = "Haskell",    icon = "λ " },
+        { "<leader>T",  group = "TypeScript", icon = " " },
+        { "<leader>e",  group = "C build",    icon = " " },
+        { "<leader>G",  group = "Go",         icon = " " },
         { "<leader>x",  group = "Diagnostics",icon = " " },
 
         -- Buffer operations
@@ -54,6 +57,9 @@ return {
         { "<leader>xb", "<cmd>Trouble diagnostics toggle filter.buf=0<CR>", desc = "Buffer diagnostics" },
         { "<leader>xl", "<cmd>Trouble loclist toggle<CR>",                  desc = "Location list" },
         { "<leader>xq", "<cmd>Trouble qflist toggle<CR>",                   desc = "Quickfix list" },
+
+        -- Info dialog (LSP hover: function signature, type, docs)
+        { "<leader>K",  "<cmd>lua vim.lsp.buf.hover()<CR>",         desc = "Info dialog (signature + docs)", icon = " " },
 
         -- Code
         { "<leader>cc", "<cmd>lua vim.lsp.buf.incoming_calls()<CR>", desc = "Incoming calls" },

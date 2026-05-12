@@ -13,6 +13,8 @@ return {
         "c", "cpp", "rust", "haskell", "ocaml", "ocaml_interface", "lua", "vim", "vimdoc",
         "cmake", "make", "bash", "json", "yaml", "toml",
         "asm", "nasm",
+        "typescript", "tsx", "javascript", "jsdoc", "html", "css",
+        "go", "gomod", "gosum", "gowork",
         "markdown", "markdown_inline", "regex",
       },
       auto_install = true,
